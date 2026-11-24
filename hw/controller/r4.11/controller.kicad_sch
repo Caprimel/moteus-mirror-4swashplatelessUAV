@@ -20861,7 +20861,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file://C:\\Users\\User\\Documents\\DHBW\\_Semester V\\T3100\\moteus-mirror-4swashplatelessUAV\\hw\\controller\\r4.11\\AE-Datasheets-controller\\TPH1R204PL_datasheet_en_20191018.pdf"
+		(property "Datasheet" "file://C:\\Users\\User\\Documents\\DHBW\\_Semester V\\T3100\\moteus-mirror-4swashplatelessUAV\\hw\\controller\\r4.11\\AE-Datasheets-controller/TPH1R204PL_datasheet_en_20191018.pdf"
 			(at 246.38 447.04 0)
 			(hide yes)
 			(show_name no)
@@ -25998,7 +25998,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://MAX15062.pdf"
+		(property "Datasheet" "${KIPRJMOD}/AE-Datasheets-controller/MAX15062.pdf"
 			(at 436.88 513.08 0)
 			(hide yes)
 			(show_name no)
@@ -37759,7 +37759,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file://C:\\Users\\User\\Documents\\DHBW\\_Semester V\\T3100\\moteus-mirror-4swashplatelessUAV\\hw\\controller\\r4.11\\AE-Datasheets-controller\\drv8353.pdf"
+		(property "Datasheet" "${KIPRJMOD}/AE-Datasheets-controller/drv8353.pdf"
 			(at 96.52 469.9 0)
 			(hide yes)
 			(show_name no)
