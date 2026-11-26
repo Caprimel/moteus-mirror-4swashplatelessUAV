@@ -939,7 +939,7 @@ class BldcServoControl {
           in > 0.0f) {
         return std::make_pair(
             in *
-            std::max(0.0f,
+            std::max(0.0f, // hier ist die Max Position
                      1.0f - (self().position_.position -
                              self().position_config_.position_max) /
                      self().config_.position_derate),
@@ -950,7 +950,7 @@ class BldcServoControl {
           in < 0.0f) {
         return std::make_pair(
             in *
-            std::max(0.0f,
+            std::max(0.0f,  // hier ist die Min Position
                      1.0f - (self().position_config_.position_min -
                              self().position_.position) /
                      self().config_.position_derate),
